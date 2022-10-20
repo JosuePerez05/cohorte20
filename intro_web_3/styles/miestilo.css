@@ -1,0 +1,23 @@
+/* p {
+    color: bisque;
+} */
+pre { /* selector de tipo */
+
+    color: aqua;
+}
+
+*{  /* selector universal */
+    color: orange;
+}
+
+em{ /* selector de tipo */
+
+    color:blueviolet;
+}
+
+samp{
+    color: yellow;
+}
+.titulo{
+    color: blue;
+}/* selector de tipo */
