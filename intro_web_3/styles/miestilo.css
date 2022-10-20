@@ -18,6 +18,7 @@ em{ /* selector de tipo */
 samp{
     color: yellow;
 }
+/* selector de clase */
 .titulo{
     color: blue;
-}/* selector de tipo */
+}
