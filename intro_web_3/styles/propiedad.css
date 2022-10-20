@@ -9,8 +9,8 @@
     width: 100px;
     height:60px ;
     overflow: scroll;/*Cierra el texto en un marco y scrolear sobre el*/
-    margin: 60px solid;/*margen externo al borde*/
-    padding: 20px solid;/*el padding es el area que hay entre el border y el contenido
+    margin: 60px ;/*margen externo al borde*/
+    padding: 20px ;/*el padding es el area que hay entre el border y el contenido
 */
 }
 
