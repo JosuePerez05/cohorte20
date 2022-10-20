@@ -22,3 +22,18 @@ samp{
 .titulo{
     color: blue;
 }
+.bl {
+    float:left;
+    background-color: greenyellow;
+    color: azure;
+
+}
+li {
+    color: black;
+
+}
+/* selector id  */
+#selector{
+  color: violet ; 
+
+}
