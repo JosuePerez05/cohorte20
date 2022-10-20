@@ -1,0 +1,21 @@
+.titulos{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(23, 164, 219);
+    
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #020202;
+    
+}
+#contenido{
+
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #020202;
+border: 3px solid rgb(223, 27, 27);
+width: 350px;
+height:100px ;
+
+margin: 60px solid;/*margen externo al borde*/
+padding: 20px ;/*el padding es el area que hay entre el border y el contenido*/
+}
