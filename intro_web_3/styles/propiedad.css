@@ -1,5 +1,17 @@
 #titulo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',  sans-serif;
-    font-size: 200%;
+    font-size: 10px;
+    
+    
+    color:hsla(296, 95%, 47%, 0.728);
+    
+    border: 3px solid rgb(50, 255, 255);
+    width: 100px;
+    height:60px ;
+    overflow: scroll;/*Cierra el texto en un marco y scrolear sobre el*/
+    margin: 60px solid;/*margen externo al borde*/
+    padding: 20px solid;/*el padding es el area que hay entre el border y el contenido
+*/
 }
+
     
