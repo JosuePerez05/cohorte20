@@ -1,0 +1,25 @@
+body {
+    background-color:gainsboro
+}
+
+.cuadro{
+
+    background-color:lime;
+    
+
+}
+h2{
+    margin-top: 0;
+}
+.cuadro1{
+
+    background-color:yellow;
+    padding-top: 0.3px;
+
+}
+
+.cuadro2{
+
+    background-color:gray;
+
+}
