@@ -1,3 +1,24 @@
-body{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Montserrat:wght@300;400;700&display=swap');
+
+
+*{
+    /* font-size: 20px; */
+    }
+.padre{
+    font-size: 20px;
+}
+.parrafo1{
+    font-family: 'Comforter Brush', cursive;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+.parrafo2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+   
 }
