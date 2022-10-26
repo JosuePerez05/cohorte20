@@ -49,6 +49,9 @@ img{
 .tres{
 background-color: rgb(75, 241, 235);
 }
+
+
+
 /*       row-fila */
 /*  Justify-content -horizontal
     align-items- vertical
@@ -56,4 +59,39 @@ background-color: rgb(75, 241, 235);
 /*    column- columna 
   Justify-content -vertical
   align-items- horizontal
-*/
+
+media query/queries
+@media(){
+}
+condicional, si se cumple una condicion, entonces se aplica lo que hay adentro de la regla 
+
+450px -celular
+800px tablet
+1200 desktop
+
+  */
+
+
+@media (max-width: 800px){
+    .padre{
+        background-color: blueviolet;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    h3{
+        display: none;/*desapareces algo*/
+    }
+    .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+}
