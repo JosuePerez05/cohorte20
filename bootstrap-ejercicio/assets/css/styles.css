@@ -1,0 +1,11 @@
+.altura{
+    height: calc(100vh -56px);
+}
+/*
+altura vh
+ancho
+*/
+.medtarjetas{
+    height: 280px;
+    width: 490px;
+}
