@@ -1,10 +1,10 @@
 .container{
-    background-color: blueviolet;
+   /*  background-color: rgb(119, 51, 251); */
     margin-top:20px ;
 }
 .container{
 
-    margin-top: 20;
+    margin-top: 20 px;
 
 
 }
@@ -20,4 +20,25 @@
 }
 .ancho{
     background: yellow;
+}
+.nuno{
+    background: rgb(55, 48, 153);
+}
+.ntres{
+    background: violet;
+}
+.unoprueba{
+    background: burlywood;
+}
+.dosprueba{
+    background: red;
+}
+.tresprueba{
+    background: orange;
+}
+.pruebacol-8{
+    background: brown;
+}
+.pruebacol-4{
+    background: hotpink;
 }
