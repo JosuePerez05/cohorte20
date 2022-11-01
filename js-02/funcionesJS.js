@@ -126,8 +126,40 @@ console.log("Total = "+PrecioTotal);
 
 
 
+let miObjeto = {
 
+    nombre: "Josue",
+    edad: 22,
+    datos: function(){
+        let mensaje= " Tu Eres: "+ this.nombre;
+        mensaje += " Tienes " + this.edad + " años ";
+        console.log(mensaje);
+        
+    }
 
+};
+miObjeto.datos();
+
+let constructor= function(){
+    let objPersona= {
+        nombre: "josue",
+        nss: 2357,
+        datosPersona: function(){
+            let msj= " Eres " + this.nombre + " Tu numero nss es " + this.nss;
+            console.log(msj);
+        },
+        otroMetodo:function(parametro){
+            let numero = 8;
+            console.log("La suma es: "+ (numero + parametro));
+
+        }
+    };
+    return objPersona;
+}
+
+let varObjReg = constructor();
+varObjReg.datosPersona();
+varObjReg.otroMetodo(5);
 
 
 
