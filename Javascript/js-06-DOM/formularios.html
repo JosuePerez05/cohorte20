@@ -7,7 +7,7 @@
     <title>Formulario</title>
 </head>
 <body>
-    <h1>Datos Personnales</h1>
+<!--     <h1>Datos Personnales</h1>
     <form id="formulario">
     Nombre<input type ='text' name='nombre' value='Juan'> <br>
     Apellido<input type ='text' name='Apellido' value='Perez'>
@@ -23,7 +23,38 @@
             texto += elemento.value + '<br>';
         }
         document.getElementById ('valores').innerHTML = texto;
+    } -->
+ <!-- </script> -->
+ 
+
+<!-- manejo de document.write -->
+<!-- <h1>Ejemplo Dom document.write</h1>
+<h2>otra mensaje</h2>
+<button onclick="cambio()">mostrar</button>
+
+<script>
+    function cambio(){
+        document.write('saludo');
     }
- </script>
+    
+</script> -->
+<h1>Dom imagenes</h1>
+
+ 
+
+<img id="imagen" src="img/img1.jpg" alt="shrek2">
+<br>
+<button onclick="cambiar()">cambio</button>
+<br>
+<img id="imagen1" src="img/img2.jpg" alt="shrek1">
+<script>
+    
+    function cambiar(){
+        
+        document.getElementById('imagen1').src ="./js-06-DOM/img/img2.jpg"
+    }
+</script>
+
+
 </body>
 </html>

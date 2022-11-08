@@ -7,22 +7,24 @@
     <title>Formulario</title>
 </head>
 <body>
-    <h1>Datos Personnales</h1>
+   <h1>Suma</h1>
     <form id="Suma">
-        valor 1<input type='text' id ='valor1'name='valor1' value='1'><br>
-        valor 2<input type='text' id ='valor2' name='valor2' value='2'><br>
+        valor 1<input type='text' name='valor1' value='1'><br>
+        valor 2<input type='text'  name='valor2' value='2'><br>
         
 
  </form>
  <button onclick='mostrarValores()'>Mostrar</button>
- <div id='Resultado'>Resultado</div>
+ <div id='valores'>Resultado</div>
  <script>
    
    function mostrarValores(){
-        var valor1= document.getElementById('valor1').value;
-        var valor2= document.getElementById('valor2').value;
-        var suma= parseInt(valor1)+ parseInt(valor2);
-        document.getElementById ('Resultado').innerHTML = suma;
+        let formulario= document.forms['Suma'];
+        let resultado='';
+        let valor1= formulario['valor1'];
+        let valor2= formulario['valor2'];
+        resultado=parseInt(valor1.value) + parseInt(valor2.value);
+        document.getElementById ('valores').innerHTML = resultado;
 
     
         
