@@ -15,7 +15,7 @@ parrafos[1].style.backgroundColor="yellow"; */
  //Crear elementos HTML
 
  const padre=document.getElementById('padre');
- const enlace=document.createElement("a");
+ const enlace=document.createElement("a");//"createElement-Crear elemento 
 enlace.href = 'https://www.google.com';
 enlace.textContent ="ir a google";
 
@@ -28,3 +28,4 @@ enlace.textContent ="ir a google";
  padre.appendChild(enlace);
  
  console.log(enlace);
+
