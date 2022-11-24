@@ -1,0 +1,5 @@
+
+ //configuaracion del archivo babel 
+ {
+    "presets":[["@babel/preset-env", {"targets": { "node": "current" } }]]
+ }
