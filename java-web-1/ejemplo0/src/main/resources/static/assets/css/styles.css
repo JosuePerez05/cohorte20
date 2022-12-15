@@ -1,0 +1,10 @@
+.altura{
+    height: calc(100vh -56px);
+}
+/*
+altura vh
+ancho
+*/
+.imagenes{
+    height: 25rem;
+}
