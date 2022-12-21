@@ -1,0 +1,56 @@
+package com.generetion.jp.appdjwt.controllers;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.slf4j.LoggerFactory;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import ch.qos.logback.classic.Logger;
+import lombok.var;
+
+@RestController
+@RequestMapping("")
+
+public class pruebaController {
+	private static final Logger  logger=(Logger)LoggerFactory.getLogger(pruebaController.class);
+	
+@GetMapping("/mensaje")
+public ResponseEntity<?>getMensaje(){
+	var auth =SecurityContextHolder.getContext().getAuthentication();
+	logger.info("Datos usuario {}",auth.getPrincipal());
+	logger.info("Permisos de uduario",auth.getAuthorities());
+	logger.info("Estado usuario usuario {}",auth.getAuthorities());
+	Map<String,String>mensaje = new HashMap<>();
+    mensaje.put("contenido", "Hola Mundo");
+    return ResponseEntity.ok(mensaje);
+}
+
+@GetMapping("/publico")
+public ResponseEntity<?>getMensajepublic(){
+	var auth =SecurityContextHolder.getContext().getAuthentication();
+	logger.info("Datos usuario {}",auth.getPrincipal());
+	logger.info("Permisos de uduario",auth.getAuthorities());
+	logger.info("Estado usuario usuario {}",auth.getAuthorities());
+	Map<String,String>mensaje = new HashMap<>();
+    mensaje.put("contenido", "Hola public");
+    return ResponseEntity.ok(mensaje);
+}
+
+@GetMapping("/admin")
+public ResponseEntity<?>getMensajeadmin(){
+	var auth =SecurityContextHolder.getContext().getAuthentication();
+	logger.info("Datos usuario {}",auth.getPrincipal());
+	logger.info("Permisos de uduario",auth.getAuthorities());
+	logger.info("Estado usuario usuario {}",auth.getAuthorities());
+	Map<String,String>mensaje = new HashMap<>();
+    mensaje.put("contenido", "Hola admin");
+    return ResponseEntity.ok(mensaje);
+}
+
+
+}

@@ -50,12 +50,6 @@ public OrdenModel getOrden() {
 public void setOrden(OrdenModel orden) {
 	this.orden = orden;
 }
-public ProductoModel getProducto() {
-	return producto;
-}
-public void setProducto(ProductoModel producto) {
-	this.producto = producto;
-}
 
 
 
