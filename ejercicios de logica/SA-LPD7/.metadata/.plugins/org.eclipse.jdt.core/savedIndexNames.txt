@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\jhos0\OneDrive\Escritorio\ejercicios de logica\SA-LPD7\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+45212053.index
+861630202.index
