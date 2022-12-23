@@ -1,0 +1,101 @@
+/*     .color1 {color: #000000;}
+    .color2 {color: #161c26;}
+    .color3 {color: #5b6777;}
+    .color4 {color: #b0b8d4;}
+    .color5 {color: #e8eef6;} */
+
+body{
+ background-color: #161c26;
+}
+.text{
+    color: #e8eef6;
+    
+}
+.nav-color{
+    background-color: #5b6777;
+    }
+.izq{
+ 
+    margin-top: 5rem;
+    margin-right: 0rem;
+    margin-left: 15rem;
+}
+.der{
+    margin-right: 5rem;
+}
+.atext {
+    color: #e8eef6;
+    text-decoration: none;
+    margin-top: 1.3rem;
+}
+.contenedor1{
+    margin-right: 0 rem;
+    margin-left: 0;
+
+}
+.miFoto{
+    margin-top: 5rem;
+
+}
+
+
+.imgFoto{
+    width: 200px;
+    place-items: center;
+}
+.btn{
+    background-color: #5b6777 ;
+    color: #e8eef6;
+
+    }
+.btn:hover{
+    background-color: #5b6777 ;
+    color: #e8eef6;
+}
+
+.cv{
+    
+    display: grid;
+    place-items: center;
+
+}
+.linkCV{
+    color: #e8eef6;
+    text-decoration: none;
+}
+.con{
+    margin-top: 5rem;
+    margin-left: 0;
+    margin-right: 0;
+    border: 0;
+}
+
+
+/* Inicia footer */
+.footer{
+    background-color:#26282b;
+    margin-top: auto;
+    max-height: 4.375rem;
+    width: 100%;
+}
+
+.nombreempresa{
+    color:  #e8eef6;
+}
+.iconosredes a{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 2px;
+    color: #e8eef6;
+    align-items: center;
+    transition: all 0.2s ease-in;
+    text-decoration: none;
+}
+.logoempresa{
+    
+    width: 59px;
+    height:49px;
+    margin: 10px;
+}
+/* Termina footer */
